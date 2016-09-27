@@ -1,0 +1,9 @@
+---
+# author: Eric Crosson
+# date: 2016-09-27
+#
+# This ansible playbook runs the pandoc role.
+
+- hosts: "{{ target }}"
+  roles:
+    - { role: role-pandoc }

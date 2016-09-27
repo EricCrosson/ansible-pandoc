@@ -1,0 +1,3 @@
+[submodule "roles/role-pandoc"]
+	path = roles/role-pandoc
+	url = gh:ericcrosson/role-pandoc.git
